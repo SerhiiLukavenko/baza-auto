@@ -19,29 +19,23 @@
       margin: 0;
       width: 100%;
       height: 100%;
+      overflow: hidden;
       background: #1f3a5f;
-      font-family: Arial, sans-serif;
     }
 
-    .loading {
+    iframe {
+      width: 100%;
       height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 28px;
-      font-weight: bold;
+      border: 0;
+      display: block;
     }
   </style>
 </head>
 
 <body>
-  <div class="loading">База авто…</div>
-
-  <script>
-    window.location.replace(
-      "https://script.google.com/macros/s/AKfycbzK44I5S2W1_FZM-KXL432wdzDTWAEjqRyBeZGOE0yQBMR-MbXcA-zPZgrvKb9KMAOzxQ/exec"
-    );
-  </script>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbzK44I5S2W1_FZM-KXL432wdzDTWAEjqRyBeZG0E0yQBMR-MbXcA-zPZgrvKb9KMAOzxQ/exec"
+    allow="clipboard-read; clipboard-write">
+  </iframe>
 </body>
 </html>
